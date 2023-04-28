@@ -84,6 +84,12 @@ img {
     font-weight: bold;
 }
 
+.date-modest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 /*Third section starts here*/
 
