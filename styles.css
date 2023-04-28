@@ -21,11 +21,13 @@ img {
 
 .header-content {
 
+    display: flex;
+    flex-direction: column;
     background-color: darkslateblue;
-
     padding: 16px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-second-text {
@@ -34,6 +36,7 @@ img {
     font-size: 22px;
     font-style: italic;
     font-weight: bold;
+    align-items: center;
 }
 
 .header-text {
@@ -44,6 +47,8 @@ img {
     font-style: oblique;
 
 }
+
+
 
 /*Second section starts here*/
 
@@ -83,7 +88,7 @@ img {
 /*Third section starts here*/
 
 .gaaye-holud {
-    background-color: yellow;
+    background-color: rgb(231, 231, 99);
     display: flex;
     flex-direction: column;
 
