@@ -21,8 +21,8 @@ img {
 
 .header-content {
 
-    background-color:darkslateblue;
-    
+    background-color: darkslateblue;
+
     padding: 16px;
     display: flex;
     justify-content: space-between;
@@ -63,11 +63,20 @@ img {
 }
 
 .images-dates {
- display: flex;
- flex-wrap: wrap;
- gap: 24px;
- justify-content: center;
- align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-final-boss {
+    text-align: center;
+    padding: 16px;
+    color: #F9FAF8;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 
@@ -77,7 +86,7 @@ img {
     background-color: yellow;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .gholud-title {
@@ -95,21 +104,21 @@ img {
     color: rgb(247, 53, 53);
     font-size: 22px;
     font-style: italic;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .images-gholud {
- display: flex;
- flex-direction: column;
- gap: 12px;
- justify-content: center;
- align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Forth section starts here*/
 
 .weddings {
-    background-color:rgb(27, 0, 64);
+    background-color: rgb(27, 0, 64);
     display: flex;
     flex-direction: column;
 }
@@ -128,5 +137,63 @@ img {
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+}
+
+/*Fifth section starts here*/
+
+.eid {
+    background-color: navy;
+    display: flex;
+    flex-direction: column;
+}
+
+.eid-title {
+    text-align: center;
+    padding: 16px;
+    color: #F9FAF8;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.images-eid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Sixth section starts here*/
+
+.ending-section {
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+}
+
+.historic-title {
+    text-align: center;
+    padding: 16px;
+    color: #F9FAF8;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;  
+}
+
+.image-ending {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ending-title {
+    text-align: center;
+    padding: 16px;
+    color: #F9FAF8;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: bolder;
 }
